@@ -1,0 +1,70 @@
+name: ramadhan_tracker
+description: "A new Flutter project."
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.8
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  flutter_riverpod: ^2.4.9
+  riverpod_annotation: ^2.3.3
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  google_fonts: ^6.1.0
+  intl: ^0.19.0
+  percent_indicator: ^4.2.3
+  path_provider: ^2.1.5
+  collection: ^1.18.0
+  flutter_heatmap_calendar: ^1.0.5
+  pdf: ^3.11.3
+  printing: ^5.14.2
+  excel: ^4.0.6
+  share_plus: ^12.0.1
+  table_calendar: ^3.1.3
+  flutter_animate: ^4.5.2
+  flutter_local_notifications: ^20.1.0
+  timezone: ^0.10.1
+  flutter_timezone: ^5.0.1
+  adhan: ^2.0.0+1
+  geolocator: ^14.0.2
+  permission_handler: ^12.0.1
+  hugeicons: ^1.1.5
+  http: ^1.6.0
+  audioplayers: ^6.5.1
+  screenshot: ^3.0.0
+  confetti: ^0.8.0
+  lottie: ^3.3.0
+  shimmer: ^3.0.0
+  image_picker: ^1.1.2
+  home_widget: ^0.7.0
+  fl_chart: ^1.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  build_runner: ^2.4.13
+  hive_generator: ^2.0.1
+  flutter_launcher_icons: ^0.14.3
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon/ramadhan_tracker_icon.png"
+  min_sdk_android: 21
+  remove_alpha_ios: true
+
+dependency_overrides:
+  meta: ^1.11.0
+  intl: ^0.19.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icon/
+    - assets/lottie/
+    - assets/audio/

@@ -1,0 +1,73 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/widget_background"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/app_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ramadhan Tracker"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/prayer_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Fajr 04:30"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/progress_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Daily Progress: 0%"
+        android:textColor="#EEEEEE"
+        android:textSize="12sp" />
+
+    <ProgressBar
+        android:id="@+id/ramadhan_progress_bar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:max="30"
+        android:progress="0"
+        android:progressTint="#4CAF50" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="4dp">
+
+        <TextView
+            android:id="@+id/ramadhan_day_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Day 1/30"
+            android:textColor="#FFFFFF"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/streak_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="🔥 Streak: 0"
+            android:textColor="#FF9800"
+            android:textStyle="bold"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

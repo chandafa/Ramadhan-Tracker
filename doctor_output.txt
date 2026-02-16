@@ -1,0 +1,39 @@
+[√] Flutter (Channel stable, 3.38.9, on Microsoft Windows [Version 10.0.19045.6466], locale en-ID) [1,637ms]
+    • Flutter version 3.38.9 on channel stable at D:\flutter\flutter
+    • Upstream repository https://github.com/flutter/flutter.git
+    • Framework revision 67323de285 (3 weeks ago), 2026-01-28 13:43:12 -0800
+    • Engine revision 587c18f873
+    • Dart version 3.10.8
+    • DevTools version 2.51.1
+    • Feature flags: enable-web, enable-linux-desktop, enable-macos-desktop, enable-windows-desktop, enable-android, enable-ios, cli-animations, enable-native-assets, omit-legacy-version-file, enable-lldb-debugging
+
+[√] Windows Version (10 Pro 64-bit, 22H2, 2009) [5.0s]
+
+[!] Android toolchain - develop for Android devices (Android SDK version 36.1.0) [8.5s]
+    • Android SDK at D:\Users\CHAN\AppData\Local\Android\Sdk
+    • Emulator version 36.4.9.0 (build_id 14788078) (CL:N/A)
+    • Platform android-36.1, build-tools 36.1.0
+    • ANDROID_HOME = D:\Users\CHAN\AppData\Local\Android\Sdk
+    • Java binary at: D:\Program Files\Android\Android Studio\jbr\bin\java
+      This is the JDK bundled with the latest Android Studio installation on this machine.
+      To manually set the JDK path, use: `flutter config --jdk-dir="path/to/jdk"`.
+    • Java version OpenJDK Runtime Environment (build 21.0.9+-14649483-b1163.86)
+    ! Some Android licenses not accepted. To resolve this, run: flutter doctor --android-licenses
+
+[√] Chrome - develop for the web [585ms]
+    • Chrome at C:\Program Files\Google\Chrome\Application\chrome.exe
+
+[X] Visual Studio - develop Windows apps [582ms]
+    X Visual Studio not installed; this is necessary to develop Windows apps.
+      Download at https://visualstudio.microsoft.com/downloads/.
+      Please install the "Desktop development with C++" workload, including all of its default components
+
+[√] Connected device (3 available) [1,333ms]
+    • Windows (desktop) • windows • windows-x64    • Microsoft Windows [Version 10.0.19045.6466]
+    • Chrome (web)      • chrome  • web-javascript • Google Chrome 144.0.7559.133
+    • Edge (web)        • edge    • web-javascript • Microsoft Edge 144.0.3719.115
+
+[√] Network resources [696ms]
+    • All expected network resources are available.
+
+! Doctor found issues in 2 categories.

@@ -1,0 +1,63 @@
+Analyzing ramadhan-tracker...                                   
+
+   info - Parameter 'key' could be a super parameter - lib\screens\journal_screen.dart:102:9 - use_super_parameters
+warning - The value of the local variable 'selectedIndex' isn't used - lib\screens\main_layout.dart:19:11 - unused_local_variable
+warning - The value of the local variable 'locale' isn't used - lib\screens\main_layout.dart:20:11 - unused_local_variable
+  error - Expected to find ';' - lib\screens\main_layout.dart:26:13 - expected_token
+warning - Dead code - lib\screens\main_layout.dart:26:14 - dead_code
+  error - Expected an identifier - lib\screens\main_layout.dart:26:14 - missing_identifier
+  error - Unexpected text ';' - lib\screens\main_layout.dart:26:14 - unexpected_token
+  error - Undefined name 'LucideIcons' - lib\screens\main_layout.dart:28:26 - undefined_identifier
+  error - Undefined name 'LucideIcons' - lib\screens\main_layout.dart:30:17 - undefined_identifier
+  error - Expected to find ';' - lib\screens\main_layout.dart:34:13 - expected_token
+  error - Expected an identifier - lib\screens\main_layout.dart:34:14 - missing_identifier
+  error - Unexpected text ';' - lib\screens\main_layout.dart:34:14 - unexpected_token
+  error - Undefined name 'LucideIcons' - lib\screens\main_layout.dart:36:26 - undefined_identifier
+  error - Undefined name 'LucideIcons' - lib\screens\main_layout.dart:38:17 - undefined_identifier
+  error - Undefined name 'isIndo' - lib\screens\main_layout.dart:41:22 - undefined_identifier
+  error - Expected to find ';' - lib\screens\main_layout.dart:42:13 - expected_token
+  error - Expected an identifier - lib\screens\main_layout.dart:42:14 - missing_identifier
+  error - Expected to find ';' - lib\screens\main_layout.dart:42:14 - expected_token
+  error - Unexpected text ';' - lib\screens\main_layout.dart:42:14 - unexpected_token
+  error - Expected an identifier - lib\screens\main_layout.dart:43:11 - missing_identifier
+  error - Expected to find ';' - lib\screens\main_layout.dart:43:11 - expected_token
+  error - Unexpected text ';' - lib\screens\main_layout.dart:43:11 - unexpected_token
+  error - Expected an identifier - lib\screens\main_layout.dart:43:12 - missing_identifier
+  error - Expected to find ';' - lib\screens\main_layout.dart:43:12 - expected_token
+  error - Unexpected text ';' - lib\screens\main_layout.dart:43:12 - unexpected_token
+  error - Expected an identifier - lib\screens\main_layout.dart:44:9 - missing_identifier
+  error - Expected to find ';' - lib\screens\main_layout.dart:44:9 - expected_token
+  error - Unexpected text ';' - lib\screens\main_layout.dart:44:9 - unexpected_token
+  error - Expected an identifier - lib\screens\main_layout.dart:44:10 - missing_identifier
+  error - Expected to find ';' - lib\screens\main_layout.dart:44:10 - expected_token
+  error - Unexpected text ';' - lib\screens\main_layout.dart:44:10 - unexpected_token
+  error - Expected an identifier - lib\screens\main_layout.dart:45:7 - missing_identifier
+  error - Expected to find ';' - lib\screens\main_layout.dart:45:7 - expected_token
+  error - Unexpected text ';' - lib\screens\main_layout.dart:45:7 - unexpected_token
+  error - Expected an identifier - lib\screens\main_layout.dart:45:8 - missing_identifier
+  error - Expected to find ';' - lib\screens\main_layout.dart:45:8 - expected_token
+  error - Unexpected text ';' - lib\screens\main_layout.dart:45:8 - unexpected_token
+  error - Expected an identifier - lib\screens\main_layout.dart:46:5 - missing_identifier
+  error - Unexpected text ';' - lib\screens\main_layout.dart:46:5 - unexpected_token
+   info - Unnecessary empty statement - lib\screens\main_layout.dart:46:6 - empty_statements
+   info - 'activeColor' is deprecated and shouldn't be used. Use activeThumbColor instead. This feature was deprecated after v3.31.0-2.0.pre - lib\screens\settings_screen.dart:45:27 - deprecated_member_use
+   info - Missing type annotation - lib\screens\splash_screen.dart:23:3 - strict_top_level_inference
+  error - A value of type 'TimezoneInfo' can't be assigned to a variable of type 'String' - lib\services\notification_service.dart:19:33 - invalid_assignment
+  error - The named parameter 'settings' is required, but there's no corresponding argument - lib\services\notification_service.dart:38:43 - missing_required_argument
+  error - Too many positional arguments: 0 expected, but 1 found - lib\services\notification_service.dart:38:54 - extra_positional_arguments_could_be_named
+  error - The named parameter 'id' is required, but there's no corresponding argument - lib\services\notification_service.dart:51:43 - missing_required_argument
+  error - The named parameter 'notificationDetails' is required, but there's no corresponding argument - lib\services\notification_service.dart:51:43 - missing_required_argument
+  error - The named parameter 'scheduledDate' is required, but there's no corresponding argument - lib\services\notification_service.dart:51:43 - missing_required_argument
+  error - Too many positional arguments: 0 expected, but 5 found - lib\services\notification_service.dart:52:7 - extra_positional_arguments_could_be_named
+  error - The named parameter 'uiLocalNotificationDateInterpretation' isn't defined - lib\services\notification_service.dart:67:7 - undefined_named_parameter
+  error - Undefined name 'UILocalNotificationDateInterpretation' - lib\services\notification_service.dart:68:11 - undefined_identifier
+  error - The named parameter 'id' is required, but there's no corresponding argument - lib\services\notification_service.dart:144:43 - missing_required_argument
+  error - The named parameter 'notificationDetails' is required, but there's no corresponding argument - lib\services\notification_service.dart:144:43 - missing_required_argument
+  error - The named parameter 'scheduledDate' is required, but there's no corresponding argument - lib\services\notification_service.dart:144:43 - missing_required_argument
+  error - Too many positional arguments: 0 expected, but 5 found - lib\services\notification_service.dart:145:7 - extra_positional_arguments_could_be_named
+  error - The named parameter 'uiLocalNotificationDateInterpretation' isn't defined - lib\services\notification_service.dart:160:7 - undefined_named_parameter
+  error - Undefined name 'UILocalNotificationDateInterpretation' - lib\services\notification_service.dart:161:11 - undefined_identifier
+   info - 'Share' is deprecated and shouldn't be used. Use SharePlus instead - lib\utils\excel_generator.dart:62:13 - deprecated_member_use
+   info - 'shareXFiles' is deprecated and shouldn't be used. Use SharePlus.instance.share() instead - lib\utils\excel_generator.dart:62:19 - deprecated_member_use
+   info - 'Table.fromTextArray' is deprecated and shouldn't be used. Use TableHelper.fromTextArray() instead - lib\utils\pdf_generator.dart:38:13 - deprecated_member_use
+
