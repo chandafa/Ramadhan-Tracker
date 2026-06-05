@@ -1,0 +1,37 @@
+name: Verify Bot Scripts
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "scripts/maintain.js"
+      - "scripts/review-pr.js"
+      - ".github/workflows/verify-bot.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Check JavaScript syntax
+        run: |
+          node --check scripts/maintain.js
+          node --check scripts/review-pr.js
+
+      - name: Run maintenance script in dry-run mode
+        run: node scripts/maintain.js
+        env:
+          GITHUB_TOKEN: dummy
+          GITHUB_REPOSITORY: chandafa/Ramadhan-Tracker
+          BOT_DRY_RUN: "true"
