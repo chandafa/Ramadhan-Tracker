@@ -63,6 +63,28 @@ Unduh **Ramadhan Tracker** sekarang dan jadikan Ramadhan tahun ini lebih baik da
 
 ---
 
+## 🤖 GitHub Maintainer Bot
+
+Repository ini dilengkapi bot maintenance berbasis GitHub Actions.
+
+Bot melakukan:
+
+- scan TODO/FIXME/HACK/XXX di kode
+- membuat `docs/maintenance-report.md`
+- membuat issue maintenance maksimal 3 item per run
+- membuka pull request otomatis untuk laporan maintenance
+- memberi automated review saat ada pull request baru
+
+Workflow yang tersedia:
+
+- **Verify Bot Scripts**: mengecek syntax JavaScript dan dry-run script maintenance
+- **Maintainer Bot**: menjalankan scan maintenance harian atau manual
+- **PR Review Bot**: memberi komentar review otomatis pada pull request
+
+Untuk mengaktifkan penuh, buka **Settings → Actions → General**, lalu aktifkan **Read and write permissions** dan **Allow GitHub Actions to create and approve pull requests**.
+
+---
+
 ## 🔒 Data Safety & Privacy (Play Store Compliance)
 
 ### Lampiran II: Langkah-langkah teknis dan organisasi untuk memastikan keamanan data
