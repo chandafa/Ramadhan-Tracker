@@ -1,0 +1,45 @@
+name: Maintainer Bot
+
+on:
+  schedule:
+    - cron: "0 1 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+  pull-requests: write
+
+jobs:
+  maintain:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Run maintenance script
+        run: node scripts/maintain.js
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BOT_MAX_ISSUES: 3
+
+      - name: Create pull request
+        uses: peter-evans/create-pull-request@v7
+        with:
+          commit-message: "chore: update maintenance report"
+          title: "chore: daily maintenance report"
+          body: |
+            Automated maintenance update.
+
+            Bot melakukan:
+            - scan TODO/FIXME/HACK/XXX
+            - update maintenance report
+            - membuka issue maintenance jika ada temuan baru
+          branch: bot/daily-maintenance
+          delete-branch: true
